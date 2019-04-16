@@ -28,11 +28,14 @@ truffle console
 
 geth installation 
 sudo yum install golang
+
 $  sudo yum install gmp-devel
 $  git clone https://github.com/ethereum/go-ethereum
 $  cd go-ethereum/
 $  make geth
 $  ls -al  build/bin/geth
+
+
 cp /opt/ethererum/go-ethereum/build/bin/geth /usr/local/bin/.
 
 
